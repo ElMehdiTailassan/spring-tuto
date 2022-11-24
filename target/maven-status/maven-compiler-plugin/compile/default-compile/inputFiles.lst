@@ -1,0 +1,8 @@
+C:\project_perso\core\src\main\java\com\mycompany\dvdstore\controller\MovieController.java
+C:\project_perso\core\src\main\java\com\mycompany\dvdstore\service\DefaultMovieService.java
+C:\project_perso\core\src\main\java\com\mycompany\dvdstore\service\MovieServiceInterface.java
+C:\project_perso\core\src\main\java\com\mycompany\dvdstore\App.java
+C:\project_perso\core\src\main\java\com\mycompany\dvdstore\Repository\FileMovieRepository.java
+C:\project_perso\core\src\main\java\com\mycompany\dvdstore\Repository\MemoryMovieRepository.java
+C:\project_perso\core\src\main\java\com\mycompany\dvdstore\Repository\MovieRepositoryInterface.java
+C:\project_perso\core\src\main\java\com\mycompany\dvdstore\entity\Movie.java
