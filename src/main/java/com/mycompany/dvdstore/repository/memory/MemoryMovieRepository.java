@@ -8,11 +8,28 @@ import java.util.List;
 
 public class MemoryMovieRepository implements MovieRepositoryInterface {
 
-    List<Movie> movies = new ArrayList<>();
+    public static long lastId=0L;
+
+    private List<Movie> movies = new ArrayList<>();
 
 
-    public void add(Movie movie) {
+
+    public Movie add(Movie movie) {
+        movie.setId(lastId++);
         movies.add(movie);
         System.out.println("The movie "+movie.getTitle()+" has been added.");
+        return movie;
+    }
+
+    @Override
+    public List<Movie> list() {
+        return movies;
+    }
+
+    @Override
+    public Movie getById(long id) {
+        return movies.stream().
+                filter(m -> m.getId()==id).
+                findFirst().get();
     }
 }
